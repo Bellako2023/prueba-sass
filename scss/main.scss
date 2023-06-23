@@ -4,6 +4,28 @@
 // layout
 @import "./layout/navbar";
 
+// Aside
+
+@import "./Aside/aside";
+
+// Footer
+
+@import "./footer/pide de pagina";
+
+// Button
+
+@import "./Button/Button";
+
+// Body
+
+@import "./Body/Cuerpo";
+
+// header
+
+@import "./header/Encabezado"
+
+
+
 body {
     display: grid;
     grid-template-columns: 100px 60% 40%;
