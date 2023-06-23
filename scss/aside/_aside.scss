@@ -1,25 +1,23 @@
 aside {
     padding-right: 10px;
     margin-bottom: 1fr;
-  }
-  
-  aside {
     grid-area: aside;
     background-color: khaki;
+
+    h1 {
+        color: white;
+        padding: 20%;
+
+        article img {
+            width: 300px;
+            padding: 1%;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            border-radius: 20px;
+
+            p {
+                padding: 30%;
+              }
+          }
+      }
   }
   
-  aside h1 {
-    color: white;
-    padding: 20%;
-  }
-  
-  aside article img {
-    width: 300px;
-    padding: 1%;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    border-radius: 20px;
-  }
-  
-  aside article p {
-    padding: 30%;
-  }
