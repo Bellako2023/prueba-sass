@@ -20,4 +20,13 @@ aside {
           }
       }
   }
+
+  @mixin sizes($width, $heigth) {
+    height: $height;
+    width: $width;
+  }
+  img {
+    @include sizes(500px, 50px);
+    
+  }
   

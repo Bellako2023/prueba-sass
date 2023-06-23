@@ -10,7 +10,7 @@
 
 // Footer
 
-@import "./footer/pide de pagina";
+@import "./footer/footer";
 
 // Button
 
@@ -18,11 +18,11 @@
 
 // Body
 
-@import "./Body/Cuerpo";
+@import "./Cuerpo/Cuerpo";
 
 // header
 
-@import "./header/Encabezado"
+@import "./Encabezado/Encabezado";
 
 
 
@@ -86,17 +86,17 @@ footer{
     grid-area: footer;
 }
 
+
+/* mixin */
+@mixin flex($direccion) {
+    display: flex;
+    justify-content: $direccion;
+}
+
 .button{
-    background-color: #eb5e28;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 5px 10px;
+    @include flex(row-reverse);
 }
 
 footer{
-    background-color: darkorange;
-    height: 200px;
-    display: flex;
-    justify-content: space-around;
+    @include flex(column);
 }
